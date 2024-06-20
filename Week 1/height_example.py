@@ -46,11 +46,17 @@ while(weight > 160):
 
 # [1,2,3,4,5,6,7,8,9]
 boobookaka = ["boo", "boo", 1, 2 , 3, "ka"]
-for i in boobookaka:
+startCountDown = 3
+endCountDown = 1
+for i in range(endCountDown, startCountDown):
     print("step " + str(i))
 
 
-        
+
+i = 0 
+while(i < 10):
+    print(i)
+    i = i + 1
 
 print("good job on finally caring about yourself")
 
