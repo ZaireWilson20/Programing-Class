@@ -1,6 +1,14 @@
 # Prompting players
+print("Welcome to Rock Paper Scissors. If you don't know how to play, you're dumb but I will help you regardless.")
+print("Each player gets to choose one action to shoot. Type rock, paper, or scissors when prompted.")
 p1 = input("Player 1 shoots... ")
+while p1 != 'rock' and p1 != 'paper' and p1 != 'scissors':
+    print("I already told you how to play the game, try again.")
+    p1 = input("Player 1 shoots... ")
 p2 = input("Player 2 shoots... ")
+while p2 != 'rock' and p2 != 'paper' and p2 != 'scissors':
+    print("I already told you how to play the game, try again.")
+    p2 = input("Player 2 shoots... ")
 
 # Who wins?
 # Is it a tie?
